@@ -12,7 +12,7 @@
                              .SetProperty(u => u.Id, 123)
                              .SetProperty(u => u.Name, "Mohamed")
                              .SetProperty(u => u.CreatedAt, DateTime.Now)
-                             .Build();
+                             .Finish();
                              
                              
 ```
