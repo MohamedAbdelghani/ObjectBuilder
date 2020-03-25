@@ -29,7 +29,7 @@ namespace ObjectBuilder
       return new Builder<T>();
     }
 
-    public T Build()
+    public T Finish()
     {
       return _obj;
     }
